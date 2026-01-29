@@ -1,0 +1,39 @@
+.header {
+  box-shadow: -2px 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  min-height: 60px;
+  padding: 4px 210px;
+}
+
+.header__logo {
+  color: #000;
+}
+
+.header__button-wrapper {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.header__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 38px;
+  width: 38px;
+
+  border: 1px solid #393939;
+  border-radius: 8px;
+}
+
+.header__lang {
+  font-size: 25px;
+  opacity: 0.6;
+}
