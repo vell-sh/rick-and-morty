@@ -26,7 +26,8 @@
       "@images/*": ["./assets/images/*"],
       "@app/*": ["./app"],
       "@pages": ["./pages/index"],
-      "@constants": ["./constants/index"]
+      "@components": ["./shared/components/index"],
+      "@constants": ["./shared/constants/index"]
     }
   },
   "include": ["src"],

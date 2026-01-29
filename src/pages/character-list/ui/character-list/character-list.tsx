@@ -1,3 +1,9 @@
+import { Loader } from "@components";
+
 export const CharacterList = (): JSX.Element => {
-  return <div>CharacterList</div>;
+  return (
+    <div>
+      <Loader size="big" label="Загрузка" />
+    </div>
+  );
 };
