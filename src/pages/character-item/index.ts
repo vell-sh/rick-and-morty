@@ -1,1 +1,1 @@
-export { CharacterItem } from "./ui/character-item";
+export { CharacterItem } from "./character-item";
