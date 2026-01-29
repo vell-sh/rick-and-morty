@@ -1,9 +1,11 @@
-import { Loader } from "@components";
+import bigLogo from "@images/big-logo.png";
+
+import "./character-list.css";
 
 export const CharacterList = (): JSX.Element => {
   return (
-    <div>
-      <Loader size="big" label="Загрузка" />
+    <div className="character-list">
+      <img src={bigLogo} height="200" width="600" alt="Rick and Morty logo" />
     </div>
   );
 };
