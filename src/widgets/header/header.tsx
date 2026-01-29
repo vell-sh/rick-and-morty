@@ -5,8 +5,8 @@ import "./header.css";
 export const Header = () => {
   return (
     <header className="header">
-      <div className="header--wrapper container">
-        <a className="header--logo" href="#">
+      <div className="header__wrapper container">
+        <a className="header__logo" href="#">
           <LogoIcon />
         </a>
         <div className="header__button-wrapper">

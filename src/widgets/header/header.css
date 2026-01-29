@@ -2,7 +2,7 @@
   box-shadow: -2px 0 8px rgba(0, 0, 0, 0.1);
 }
 
-.header--wrapper {
+.header__wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -11,7 +11,7 @@
   padding: 4px 210px;
 }
 
-.header--logo {
+.header__logo {
   color: #000;
 }
 
