@@ -1,6 +1,6 @@
-import bigLogo from "@images/big-logo.png";
+import bigLogo from '@images/big-logo.png';
 
-import "./character-list.css";
+import './character-list.css';
 
 export const CharacterList = (): JSX.Element => {
   return (

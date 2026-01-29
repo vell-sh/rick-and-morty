@@ -1,6 +1,6 @@
-import { LogoIcon, LightThemeIcon } from "@icons";
+import { LightThemeIcon, LogoIcon } from '@icons';
 
-import "./header.css";
+import './header.css';
 
 export const Header = () => {
   return (
