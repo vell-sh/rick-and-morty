@@ -22,6 +22,7 @@
 
     "baseUrl": "src",
     "paths": {
+      "@icons": ["./assets/icons.ts"],
       "@images/*": ["./assets/images/*"],
       "@app/*": ["./app"],
       "@pages": ["./pages/index"],

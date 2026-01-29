@@ -1,3 +1,8 @@
+import "./footer.css";
 export const Footer = () => {
-  return <div>Footer</div>;
+  return (
+    <footer className="footer">
+      <div className="container">Made with love by vell-sh</div>
+    </footer>
+  );
 };

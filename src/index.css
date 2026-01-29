@@ -34,6 +34,19 @@ body {
   height: 100%;
 }
 
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  height: 100%;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
 * {
   margin: 0;
   -webkit-tap-highlight-color: transparent;
@@ -61,6 +74,23 @@ a {
   text-decoration: none;
 }
 
-#root {
-  height: 100%;
+button {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+  color: inherit;
+  cursor: pointer;
+  line-height: normal;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-font-smoothing: inherit;
+}
+
+button:disabled {
+  cursor: initial;
+}
+
+button::-moz-focus-inner {
+  border: 0;
+  padding: 0;
 }
