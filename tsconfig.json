@@ -27,7 +27,9 @@
       "@app/*": ["./app"],
       "@pages": ["./pages/index"],
       "@components": ["./shared/components/index"],
-      "@constants": ["./shared/constants/index"]
+      "@constants": ["./shared/constants/index"],
+      "@types": ["./shared/types/index"],
+      "@widgets": ["./widgets/index"]
     }
   },
   "include": ["src"],

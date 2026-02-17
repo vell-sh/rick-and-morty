@@ -14,7 +14,7 @@ export const Header = () => {
             <LightThemeIcon />
           </button>
           <button disabled className="header__button">
-            <span className="header__lang">РУ</span>
+            <span className="header__lang">EN</span>
           </button>
         </div>
       </div>
