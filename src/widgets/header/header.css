@@ -12,6 +12,8 @@
 }
 
 .header__logo {
+  flex-shrink: 0;
+  
   color: #000;
 }
 
