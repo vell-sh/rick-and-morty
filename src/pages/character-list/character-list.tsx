@@ -1,15 +1,15 @@
-import './character-list.css';
-
-import { CHARACTER_GENDERS, CHARACTER_SPECIES, CHARACTER_STATUSES } from '@constants';
-import { Select, StatusBadge } from '@components';
-import { TGender, TSpecies, TStatus } from '@types';
-
-import bigLogo from '@images/big-logo.png';
 import { useState } from 'react';
 
+import { Select, StatusBadge } from '@components';
+import { CHARACTER_GENDERS, CHARACTER_SPECIES, CHARACTER_STATUSES } from '@constants';
+import bigLogo from '@images/big-logo.png';
+import { TGender, TSpecies, TStatus } from '@types';
+
+import './character-list.css';
+
 export const CharacterList = (): JSX.Element => {
-  const [valueSpecies, setValueSpecies] = useState<TSpecies| ''>('');
-  const [valueGender, setValueGender] = useState<TGender| ''>('');
+  const [valueSpecies, setValueSpecies] = useState<TSpecies | ''>('');
+  const [valueGender, setValueGender] = useState<TGender | ''>('');
   const [valueStatus, setValueStatus] = useState<TStatus | ''>('');
 
   return (
@@ -21,12 +21,12 @@ export const CharacterList = (): JSX.Element => {
           mode="l"
           value={valueSpecies}
           onChange={setValueSpecies}
-            options={[
-              ...CHARACTER_SPECIES.map((species) => ({
-                label: species.label,
-                value: species.value,
-              })),
-            ]}
+          options={[
+            ...CHARACTER_SPECIES.map((species) => ({
+              label: species.label,
+              value: species.value,
+            })),
+          ]}
         />
         <Select
           placeholder="Gender"
@@ -34,12 +34,12 @@ export const CharacterList = (): JSX.Element => {
           disabled
           value={valueGender}
           onChange={setValueGender}
-            options={[
-              ...CHARACTER_GENDERS.map((species) => ({
-                label: species.label,
-                value: species.value,
-              })),
-            ]}
+          options={[
+            ...CHARACTER_GENDERS.map((species) => ({
+              label: species.label,
+              value: species.value,
+            })),
+          ]}
         />
 
         <Select
