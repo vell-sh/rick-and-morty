@@ -1,6 +1,6 @@
-import { LogoIcon, LightThemeIcon } from "@icons";
+import { LightThemeIcon, LogoIcon } from '@icons';
 
-import "./header.css";
+import './header.css';
 
 export const Header = () => {
   return (
@@ -14,7 +14,7 @@ export const Header = () => {
             <LightThemeIcon />
           </button>
           <button disabled className="header__button">
-            <span className="header__lang">РУ</span>
+            <span className="header__lang">EN</span>
           </button>
         </div>
       </div>

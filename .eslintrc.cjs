@@ -15,6 +15,7 @@ module.exports = {
   },
   plugins: ['react-refresh', 'simple-import-sort'],
   rules: {
+    'eol-last': ['error', 'always'],
     'react-refresh/only-export-components': ['warn', { allowConstantExport: true }],
     '@typescript-eslint/no-empty-interface': 'warn',
     'import/order': 'off',

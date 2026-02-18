@@ -1,7 +1,8 @@
-import { Link } from "react-router";
-import { ArrowBack } from "@icons";
+import { Link } from 'react-router';
 
-import "./character-item.css";
+import { ArrowBack } from '@icons';
+
+import './character-item.css';
 
 export const CharacterItem = () => {
   return (

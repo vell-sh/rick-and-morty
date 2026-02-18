@@ -1,2 +1,2 @@
-export { CharacterList } from "./character-list";
-export { CharacterItem } from "./character-item";
+export { CharacterList } from './character-list/character-list';
+export { CharacterItem } from './character-item/character-item';

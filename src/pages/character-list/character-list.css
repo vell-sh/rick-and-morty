@@ -3,3 +3,8 @@
   width: 600px;
   margin: 0 auto;
 }
+
+.character-list__selects {
+  display: flex;
+  gap: 20px;
+}

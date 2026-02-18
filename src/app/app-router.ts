@@ -1,6 +1,7 @@
-import { CharacterItem, CharacterList } from "@pages";
 import { createBrowserRouter } from "react-router";
-import { Layout } from "widgets";
+
+import { CharacterItem, CharacterList } from "@pages";
+import { Layout } from "@widgets";
 
 const createRoutes = () => [
   {

@@ -1,0 +1,21 @@
+.status-badge {
+  display: block;
+  flex-shrink: 0;
+  width: 10px;
+  height: 10px;
+
+  border-radius: 50%;
+  background-color: red;
+}
+
+.status-badge--alive {
+  background-color: #12b800;
+}
+
+.status-badge--dead {
+  background-color: #df0000;
+}
+
+.status-badge--unknown {
+  background-color: #ff9900;
+}
