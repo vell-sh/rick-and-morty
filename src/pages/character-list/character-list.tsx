@@ -21,12 +21,7 @@ export const CharacterList = (): JSX.Element => {
           mode="l"
           value={valueSpecies}
           onChange={setValueSpecies}
-          options={[
-            ...CHARACTER_SPECIES.map((species) => ({
-              label: species.label,
-              value: species.value,
-            })),
-          ]}
+          options={CHARACTER_SPECIES}
         />
         <Select
           placeholder="Gender"
@@ -34,12 +29,7 @@ export const CharacterList = (): JSX.Element => {
           disabled
           value={valueGender}
           onChange={setValueGender}
-          options={[
-            ...CHARACTER_GENDERS.map((species) => ({
-              label: species.label,
-              value: species.value,
-            })),
-          ]}
+          options={CHARACTER_GENDERS}
         />
 
         <Select
@@ -47,12 +37,7 @@ export const CharacterList = (): JSX.Element => {
           mode="s"
           value={valueStatus}
           onChange={setValueStatus}
-          options={[
-            ...CHARACTER_STATUSES.map((status) => ({
-              label: status.label,
-              value: status.value,
-            })),
-          ]}
+          options={CHARACTER_STATUSES}
           SelectOptionComponent={({ option }) => (
             <>
               <span>{option.label}</span>

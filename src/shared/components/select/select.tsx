@@ -11,7 +11,7 @@ const DefaultSelectOptionContent = <T,>({ option }: TSelectOptionComponentProps<
   return <>{option.label}</>;
 };
 
-export const Select = <T extends string | number = string>(props: TSelectProps<T>) => {
+export const Select = <T extends string | number>(props: TSelectProps<T>) => {
   const {
     mode = 'l',
     options,

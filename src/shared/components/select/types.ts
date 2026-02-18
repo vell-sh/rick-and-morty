@@ -8,7 +8,7 @@ export type TSelectOptionComponentProps<T> = {
 };
 
 export type TSelectProps<T> = {
-  options: TOption<T>[];
+  options: readonly TOption<T>[];
   onChange?: (value: T) => void;
   value?: T;
   mode?: 'l' | 's';
