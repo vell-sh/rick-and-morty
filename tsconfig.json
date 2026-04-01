@@ -20,6 +20,8 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
 
+    "ignoreDeprecations": "6.0",
+
     "baseUrl": "src",
     "paths": {
       "@icons": ["./assets/icons.ts"],
@@ -28,6 +30,7 @@
       "@pages": ["./pages/index"],
       "@components": ["./shared/components/index"],
       "@constants": ["./shared/constants/index"],
+      "@lib": ["./shared/lib/index"],
       "@types": ["./shared/types/index"],
       "@widgets": ["./widgets/index"]
     }
