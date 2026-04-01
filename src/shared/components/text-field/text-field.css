@@ -86,7 +86,7 @@
   outline: none;
   background: transparent;
   line-height: 1.2;
-  color: var(--text-color-main);
+  color: #000;
 }
 
 .text-field--underlined.text-field--s .text-field__input {
@@ -131,6 +131,7 @@
 .text-field--underlined .text-field__clear-icon {
   width: 8px;
   height: 8px;
+  color: #000;
 }
 
 .text-field--outlined .text-field__clear-icon {
