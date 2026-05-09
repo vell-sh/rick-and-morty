@@ -1,1 +1,1 @@
-export { Loader } from "./components";
+export { Loader } from './components';

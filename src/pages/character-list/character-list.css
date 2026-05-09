@@ -7,4 +7,16 @@
 .character-list__selects {
   display: flex;
   gap: 20px;
+  margin-bottom: 20px;
+}
+
+.character-list__filter-input {
+  max-width: 240px;
+}
+
+.character-list__inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 240px;
 }

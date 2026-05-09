@@ -1,0 +1,139 @@
+.text-field {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.text-field--disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.text-field--disabled .text-field__clear-btn {
+  cursor: not-allowed;
+}
+
+.text-field--outlined .text-field__control {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 0;
+  padding: 16px;
+  border: 1px solid #9e9e9e;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.text-field--outlined .text-field__input {
+  flex: 1 1 auto;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 16px;
+  line-height: 1.25;
+  color: var(--text-color-secondary);
+}
+
+.text-field--outlined .text-field__input::placeholder {
+  color: var(--text-color-secondary);
+}
+
+.text-field--outlined .text-field__icon {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-field--outlined .text-field__icon svg {
+  display: block;
+  width: 20px;
+  height: 20px;
+  color: var(--text-color-secondary);
+}
+
+.text-field--outlined .text-field__input:focus-visible {
+  outline: none;
+}
+
+.text-field--outlined:focus-within .text-field__control {
+  border-color: var(--text-color-main);
+}
+
+.text-field--underlined {
+  border: none;
+  border-radius: 0;
+  background: transparent;
+}
+
+.text-field--underlined .text-field__control {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #000;
+}
+
+.text-field--underlined .text-field__input {
+  flex: 1 1 auto;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  background: transparent;
+  line-height: 1.2;
+  color: #000;
+}
+
+.text-field--underlined.text-field--s .text-field__input {
+  font-size: 14px;
+}
+
+.text-field--underlined.text-field--l .text-field__input {
+  font-size: 20px;
+}
+
+.text-field--underlined .text-field__input::placeholder {
+  color: var(--text-color-secondary);
+}
+
+.text-field--underlined .text-field__input:focus-visible {
+  outline: none;
+}
+
+.text-field--underlined .text-field__control:focus-within {
+  border-bottom-color: var(--text-color-main);
+}
+
+.text-field__clear-btn {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  color: var(--text-color-main);
+}
+
+.text-field__clear-icon {
+  display: block;
+  width: 12px;
+  height: 12px;
+}
+
+.text-field--underlined .text-field__clear-icon {
+  width: 8px;
+  height: 8px;
+  color: #000;
+}
+
+.text-field--outlined .text-field__clear-icon {
+  color: var(--text-color-secondary);
+}

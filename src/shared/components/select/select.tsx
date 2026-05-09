@@ -13,7 +13,7 @@ const DefaultSelectOptionContent = <T,>({ option }: TSelectOptionComponentProps<
 
 export const Select = <T extends string | number>(props: TSelectProps<T>) => {
   const {
-    mode = 'l',
+    size = 'l',
     options,
     value,
     placeholder = 'Select an option',
@@ -112,8 +112,8 @@ export const Select = <T extends string | number>(props: TSelectProps<T>) => {
     <div
       tabIndex={disabled ? -1 : 0}
       className={cn('select', {
-        select__large: mode === 'l',
-        select__small: mode === 's',
+        select__large: size === 'l',
+        select__small: size === 's',
         select__opened: isOpen,
         select__disabled: disabled,
       })}
