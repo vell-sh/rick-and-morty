@@ -1,0 +1,11 @@
+# Зависимости
+
+node_modules/
+dist/
+build/
+
+# Не нужно проверять
+
+public/
+_.min.css
+_.min.scss

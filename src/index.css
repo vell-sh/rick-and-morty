@@ -1,41 +1,40 @@
 @import 'normalize.css';
 
 @font-face {
-  font-family: "Roboto";
-  src: url("/fonts/Roboto-Regular.woff2") format("woff2");
+  font-family: Roboto;
   font-weight: 400;
+  src: url('/fonts/Roboto-Regular.woff2') format('woff2');
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Roboto";
-  src: url("/fonts/Roboto-Medium.woff2") format("woff2");
+  font-family: Roboto;
   font-weight: 500;
+  src: url('/fonts/Roboto-Medium.woff2') format('woff2');
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Roboto";
-  src: url("/fonts/Roboto-Bold.woff2") format("woff2");
-  font-weight: 700;
+  font-family: Roboto;
   font-style: bold;
+  font-weight: 700;
+  src: url('/fonts/Roboto-Bold.woff2') format('woff2');
   font-display: swap;
 }
 
 :root {
   --text-color-main: #3F3F3F;
-  --text-color-secondary: #666666;
+  --text-color-secondary: #666;
   --border-color: #393939;
-  --action-hover: rgba(0, 0, 0, 0.04);
+  --action-hover: rgb(0 0 0 / 4%);
 }
 
 html,
 body {
   min-width: 1024px;
-  margin: 0;
   max-width: 100vw;
   height: 100%;
-
+  margin: 0;
   font-family: Roboto, Arial, sans-serif;
   font-size: 14px;
   font-weight: 400;
@@ -46,13 +45,12 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
   height: 100%;
 }
 
 *,
-*:before,
-*:after {
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -85,18 +83,18 @@ select {
 }
 
 a {
-  text-decoration: none;
   color: inherit;
+  text-decoration: none;
 }
 
 button {
-  background-color: transparent;
-  border: none;
   padding: 0;
   margin: 0;
+  line-height: normal;
   color: inherit;
   cursor: pointer;
-  line-height: normal;
+  background-color: transparent;
+  border: none;
   -moz-osx-font-smoothing: inherit;
   -webkit-font-smoothing: inherit;
 }
@@ -106,6 +104,6 @@ button:disabled {
 }
 
 button::-moz-focus-inner {
-  border: 0;
   padding: 0;
+  border: 0;
 }

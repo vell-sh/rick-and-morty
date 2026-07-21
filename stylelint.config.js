@@ -1,0 +1,7 @@
+export default {
+  extends: ['stylelint-config-standard-scss', 'stylelint-config-recess-order'],
+  rules: {
+    'selector-class-pattern': null,
+    'scss/dollar-variable-empty-line-before': null,
+  },
+};
